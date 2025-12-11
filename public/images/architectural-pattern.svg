@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Architectural grid pattern -->
+        <g stroke="#540f6b" stroke-width="1">
+            <!-- Vertical lines -->
+            <line x1="50" y1="0" x2="50" y2="600"></line>
+            <line x1="100" y1="0" x2="100" y2="600"></line>
+            <line x1="150" y1="0" x2="150" y2="600"></line>
+            <line x1="200" y1="0" x2="200" y2="600"></line>
+            <line x1="250" y1="0" x2="250" y2="600"></line>
+            <line x1="300" y1="0" x2="300" y2="600"></line>
+            <line x1="350" y1="0" x2="350" y2="600"></line>
+            <line x1="400" y1="0" x2="400" y2="600"></line>
+            <line x1="450" y1="0" x2="450" y2="600"></line>
+            <line x1="500" y1="0" x2="500" y2="600"></line>
+            <line x1="550" y1="0" x2="550" y2="600"></line>
+            
+            <!-- Horizontal lines -->
+            <line x1="0" y1="50" x2="600" y2="50"></line>
+            <line x1="0" y1="100" x2="600" y2="100"></line>
+            <line x1="0" y1="150" x2="600" y2="150"></line>
+            <line x1="0" y1="200" x2="600" y2="200"></line>
+            <line x1="0" y1="250" x2="600" y2="250"></line>
+            <line x1="0" y1="300" x2="600" y2="300"></line>
+            <line x1="0" y1="350" x2="600" y2="350"></line>
+            <line x1="0" y1="400" x2="600" y2="400"></line>
+            <line x1="0" y1="450" x2="600" y2="450"></line>
+            <line x1="0" y1="500" x2="600" y2="500"></line>
+            <line x1="0" y1="550" x2="600" y2="550"></line>
+        </g>
+        
+        <!-- Decorative Elements -->
+        <g stroke="#C48765" stroke-width="2">
+            <!-- Golden ratio spiral points -->
+            <circle cx="150" cy="150" r="5" fill="#C48765" opacity="0.7"></circle>
+            <circle cx="250" cy="150" r="5" fill="#C48765" opacity="0.7"></circle>
+            <circle cx="250" cy="250" r="5" fill="#C48765" opacity="0.7"></circle>
+            <circle cx="150" cy="250" r="5" fill="#C48765" opacity="0.7"></circle>
+            <circle cx="350" cy="350" r="5" fill="#C48765" opacity="0.7"></circle>
+            <circle cx="450" cy="350" r="5" fill="#C48765" opacity="0.7"></circle>
+            <circle cx="450" cy="450" r="5" fill="#C48765" opacity="0.7"></circle>
+            <circle cx="350" cy="450" r="5" fill="#C48765" opacity="0.7"></circle>
+            
+            <!-- Diagonal lines representing perspective -->
+            <line x1="0" y1="0" x2="600" y2="600" opacity="0.3"></line>
+            <line x1="600" y1="0" x2="0" y2="600" opacity="0.3"></line>
+            <line x1="300" y1="0" x2="300" y2="600" opacity="0.5" stroke-width="2"></line>
+            <line x1="0" y1="300" x2="600" y2="300" opacity="0.5" stroke-width="2"></line>
+        </g>
+        
+        <!-- Architectural Symbols -->
+        <g fill="#540f6b" opacity="0.4">
+            <!-- Small squares at intersections -->
+            <rect x="98" y="98" width="4" height="4"></rect>
+            <rect x="198" y="98" width="4" height="4"></rect>
+            <rect x="298" y="98" width="4" height="4"></rect>
+            <rect x="398" y="98" width="4" height="4"></rect>
+            <rect x="498" y="98" width="4" height="4"></rect>
+            
+            <rect x="98" y="198" width="4" height="4"></rect>
+            <rect x="198" y="198" width="4" height="4"></rect>
+            <rect x="298" y="198" width="4" height="4"></rect>
+            <rect x="398" y="198" width="4" height="4"></rect>
+            <rect x="498" y="198" width="4" height="4"></rect>
+            
+            <rect x="98" y="298" width="4" height="4"></rect>
+            <rect x="198" y="298" width="4" height="4"></rect>
+            <rect x="298" y="298" width="4" height="4"></rect>
+            <rect x="398" y="298" width="4" height="4"></rect>
+            <rect x="498" y="298" width="4" height="4"></rect>
+            
+            <rect x="98" y="398" width="4" height="4"></rect>
+            <rect x="198" y="398" width="4" height="4"></rect>
+            <rect x="298" y="398" width="4" height="4"></rect>
+            <rect x="398" y="398" width="4" height="4"></rect>
+            <rect x="498" y="398" width="4" height="4"></rect>
+            
+            <rect x="98" y="498" width="4" height="4"></rect>
+            <rect x="198" y="498" width="4" height="4"></rect>
+            <rect x="298" y="498" width="4" height="4"></rect>
+            <rect x="398" y="498" width="4" height="4"></rect>
+            <rect x="498" y="498" width="4" height="4"></rect>
+        </g>
+        
+        <!-- Arcs and curves to suggest architectural elements -->
+        <path d="M150,450 Q300,350 450,450" stroke="#C48765" stroke-width="2" fill="none" opacity="0.3"></path>
+        <path d="M150,150 Q300,250 450,150" stroke="#C48765" stroke-width="2" fill="none" opacity="0.3"></path>
+    </g>
+</svg>

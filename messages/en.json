@@ -1,0 +1,687 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "privacy": "Privacy Policy",
+    "services": "Services",
+    "contact": "Contact",
+    "blog": "Blogs",
+    "consultation": "Consultation",
+    "wishlist": "Wishlist",
+    "condition": "Terms and Conditions",
+    "maintenance": "Building Maintenance"
+  },
+  "hero": {
+    "title": "Find Your Dream Home",
+    "subtitle": "Discover the perfect property that matches your lifestyle and aspirations",
+    "cta": "Explore Properties",
+    "description": "Explore our properties and find your dream home.",
+    "exploreProjects": "Explore Projects",
+    "contactUs": "Contact Us"
+
+  },
+  "projectDetails": {
+    "title": "Project Details",
+    "location": "Location",
+    "area": "Area",
+    "areaUnit": "sqm",
+    "projectDescription": "Project Description",
+    "rooms": "Rooms",
+    "livingrooms": "Living Rooms",
+    "bathrooms": "Bathrooms",
+    "parking": "Parking",
+    "cameras": "Cameras",
+    "guard": "Guard",
+    "waterTank": "Water Tank",
+    "viewDetails": "View Details",
+    "currency": "SAR",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link Copied",
+    "share": "Share",
+    "unitId": "Unit ID",
+    "price": "Price",
+    "status": {
+      "sold": "Sold",
+      "rented": "Rented",
+      "availableForSale": "Available for Sale",
+      "availableForRent": "Available for Rent",
+      "reserved": "Reserved",
+      "unavailable": "Unavailable"
+    }
+  },
+  "locationModal": {
+    "projectLocation": "Project Location",
+    "openInGoogleMaps": "Open in Google Maps",
+    "close": "Close"
+  },
+  "consultation": {
+    "question": "Do you want to schedule a consultation?",
+    "cta": "Let's Start",
+    "title": "Real Estate Consultation Appointment",
+    "steps": {
+      "meetingType": "What is your preferred method of contact?",
+      "selectDay": "Select a suitable day for contact:",
+      "contactInfo": "Let us contact you:",
+      "thankYou": "Thank you for contacting us"
+    },
+    "meetingMethods": {
+      "google_meet": "Google Meet",
+      "zoom": "Zoom",
+      "phone_call": "Phone Call",
+      "whatsapp": "WhatsApp"
+    },
+    "weekDays": {
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday"
+    },
+    "form": {
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "submit": "Submit",
+      "sending": "Sending...",
+      "acceptTerms": "I agree to the processing of my personal data",
+      "acceptMarketing": "I agree to receive marketing content"
+    },
+    "errors": {
+      "meetingMethod": "Please select a meeting method",
+      "selectedDay": "Please select a suitable day",
+      "email": "Invalid email address",
+      "phone": "Invalid phone number",
+      "acceptTerms": "You must agree to the terms",
+      "acceptMarketing": "You must agree to receive marketing content"
+    },
+    "thankYouMessage": {
+      "received": "We have received your information and will contact you as soon as possible.",
+      "browse": "In the meantime, you can check out our new real estate projects",
+      "autoClose": "Window will close automatically in 5 seconds"
+    }
+  },
+  "footer": {
+    "newsletter": "Newsletter",
+    "emailPlaceholder": "Email Address",
+    "subscribe": "Subscribe Now",
+    "emailError": "Please enter a valid email address",
+    "thankYou": "Thank You!",
+    "subscribeSuccess": "Successfully subscribed to the newsletter",
+    "companyName": "RAF Real Estate Development Company",
+    "companyDescription": "Raf Real Estate Company is a leading real estate company in Saudi Arabia, offering integrated real estate solutions and distinguished investment services.",
+    "quickLinks": "Quick Links",
+    "commercialRecord": "Commercial Record",
+    "contactUs": "Contact Us",
+    "mainNumber": "unified Number",
+    "email": "Email",
+    "address": "Kingdom of Saudi Arabia",
+    "country": "Saudi Arabia",
+    "copyright": "All rights reserved for RAF Real Estate Development Company",
+    "madeBy": "Crafted with precision by RAF",
+    "subscribeError": "An error occurred while subscribing to the newsletter",
+    "unifiedNumber": "unified Number"	
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "contactUs": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "validation": {
+      "senderName": "Name is required and must be between 2-50 characters",
+      "senderEmail": "Invalid email address",
+      "phone": "Invalid phone number",
+      "messageContent": "Message is required and must be less than 500 characters"
+    }
+  },
+  "contactModal": {
+    "title": "Contact Us",
+    "phone": "Call Us",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "close": "Close"
+  },
+  "privacy": {
+    "title": "Privacy Policy and Terms of Use",
+    "lastUpdated": "Last Updated: {date}",
+    "description": "We take your privacy seriously. Learn how we protect your data",
+    "features": {
+      "security": {
+        "title": "Strong Protection",
+        "description": "We use the latest security technologies to protect your data"
+      },
+      "data": {
+        "title": "Control Your Data",
+        "description": "You have full control over your personal information"
+      },
+      "transparency": {
+        "title": "Transparency"
+      }
+    },
+    "sections": {
+      "privacyPolicy": {
+        "title": "Privacy Policy",
+        "content": "RAF Real Estate (\"the Company\") values the privacy of its customers and users of its website (\"the Site\"). This policy explains how the Company collects, uses, and shares personal data provided to us.",
+        "items": [
+          "We collect personal data you provide when registering on the site or contacting us",
+          "We also collect data automatically collected when you visit the site",
+          "We use personal data to provide the services you request",
+          "We use automatically collected data to improve the site",
+          "We do not share personal data with any third party unless necessary to provide services",
+          "You have the right to access, update, correct, and delete your personal data"
+        ]
+      },
+      "termsOfUse": {
+        "title": "Terms of Use",
+        "content": "You are allowed to use the Site for legal purposes only. You are not allowed to upload, post, or send any illegal or inappropriate content.",
+        "items": [
+          "The law protects the intellectual property rights of all content on the Site",
+          "You are not allowed to use, reproduce, or distribute any content without prior permission",
+          "We reserve the right to cancel your account or prevent you from accessing the Site at any time",
+          "These terms and conditions are subject to the laws of the Kingdom of Saudi Arabia",
+          "Any disputes or disagreements will be resolved through arbitration in Saudi Arabia"
+        ]
+      }
+    },
+    "rights": {
+      "intellectual": {
+        "title": "Intellectual Property",
+        "description": "All content on this website is the property of RAF Real Estate Company"
+      },
+      "termination": {
+        "title": "Account Termination",
+        "description": "We reserve the right to terminate accounts that violate our terms"
+      },
+      "modification": {
+        "title": "Terms Modification",
+        "description": "We may modify these terms at any time with proper notification"
+      },
+      "delete": {
+        "description": "You can request deletion of your data at any time"
+      }
+    }
+  },
+  "register": {
+    "title": "Register Interest",
+    "fullName": {
+      "label": "Full Name",
+      "placeholder": "Enter your full name",
+      "error": "Name must be between 3-50 characters"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "05xxxxxxxx",
+      "error": "Phone number must start with 05 and be 10 digits"
+    },
+    "email": {
+      "label": "Email Address",
+      "placeholder": "example@domain.com",
+      "error": "Invalid email address"
+    },
+    "buttons": {
+      "submit": "Confirm Registration",
+      "cancel": "Cancel",
+      "submitting": "Submitting..."
+    }
+  },
+  "unitDetails": {
+    "loading": "Loading...",
+    "viewLocation": "View Location",
+    "description": "Description",
+    "nearbyPlaces": "Nearby Places",
+    "price": "Price",
+    "currency": "SAR",
+    "projectImages": "Project Images",
+    "registerInterest": "Register Interest",
+    "viewOnMap": "View on Map",
+    "contactUs": "Contact Us",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link Copied",
+    "share": "Share",
+    "feature": "Feature",
+    "copyLocation": "Copy Location",
+    "features": {
+      "guard": "Guard",
+      "maidRoom": "Maid Room",
+      "bathrooms": "Bathrooms",
+      "rooms": "Rooms",
+      "area": "Area",
+      "areaUnit": "sq.m",
+      "cameras": "Cameras",
+      "elevator": "Elevator",
+      "parking": "Parking",
+      "waterTank": "Water Tank",
+      "livingRoom": "Living Room",
+      "minutes": "minutes",
+      "certifiedByWafi": "Certified by WAFI",
+      "copyLocation": "Copy Location"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "callUs": "Call Us",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "minutes": "minutes"
+    }
+  },
+  "aboutPage": {
+    "subtitle": "about us",
+    "hero": {
+      "title": "About Us",
+      "cta": "Contact Us"
+    },
+    "sections": {
+      "navigation": "Section Navigation",
+      "skipToContent": "Skip to Main Content",
+      "scrollProgress": "Reading Progress",
+      "overview": "Overview",
+      "values": "Our Values",
+      "products": "Products",
+      "vision": "Vision",
+      "mission": "Mission",
+      "goals": "Goals",
+      "services": "Services",
+      "design": "Design",
+      "whoWeAre": "Who We Are",
+      "closeNavigation": "Close Navigation",
+      "toggleNavigation": "Toggle Navigation"
+    },
+    "values": {
+      "title": "Our Values",
+      "integrity": {
+        "title": "Integrity",
+        "description": "Integrity forms the core of our work, where we commit to honesty, ethical standards, self-monitoring, and building sustainable urban life"
+      },
+      "responsibility": {
+        "title": "Spirit of Responsibility",
+        "description": "We execute all our projects with high quality, precision, and transparency with careful attention to every detail"
+      },
+      "teamwork": {
+        "title": "Team Empowerment",
+        "description": "Supporting our teams and maintaining their trust is one of the most important reasons for our success and achieving our desired goals"
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Sustainability is an essential part of our goals to develop sustainable communities with a long-term impact on the Kingdom's future"
+      }
+    },
+    "products": {
+      "title": "Products & Services",
+      "items": {
+        "luxuryBathrooms": {
+          "title": "Luxury Bathrooms",
+          "description": "We provide the finest ceramics and sanitary ware to ensure long-lasting quality"
+        },
+        "qualityDoors": {
+          "title": "Quality Doors",
+          "description": "Sound-insulating doors that provide high security and weather resistance"
+        },
+        "modernMajlis": {
+          "title": "Modern Majlis",
+          "description": "Ready-made or custom-designed majlis to meet client needs"
+        },
+        "luxuryBedrooms": {
+          "title": "Luxury Bedrooms",
+          "description": "We focus on client comfort and privacy with the finest details"
+        },
+        "marbleDesign": {
+          "title": "Marble Design",
+          "description": "We choose innovative ideas in finishes to achieve luxury with quality"
+        },
+        "modernEntrance": {
+          "title": "Modern & Secure Entrance",
+          "description": "Nothing compares to the sense of security and luxury we provide to our clients"
+        }
+      }
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "To be a leading company in real estate development and investment in the region, and to be a distinctive brand by providing high-quality real estate units that align with clients' lifestyle"
+    },
+    "goals": {
+      "title": "Goals",
+      "goal1": "Achieving change in the residential landscape in line with Vision 2030",
+      "goal2": "Providing residential units with modern designs and high-quality specifications that meet client needs",
+      "goal3": "Empowering human competencies and maintaining client trust and enthusiasm"
+    },
+    "whoWeAre": {
+      "title": "Who We Are?",
+      "description": "We are a real estate company working in real estate development with a comprehensive future concept. We aim to significantly change the residential landscape in the Kingdom by providing modern and harmonious residential services and urban environments. We focus on completing the best real estate projects that enjoy the highest quality standards and offering them at competitive prices. We support our projects with creative after-sales service solutions while paying attention to all details and preserving local customs and traditions"
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Providing innovative solutions and distinguished services that meet client needs from project planning to giving the client an exceptional life experience. Our comprehensive development approach covers design, contract and procurement management, construction, and project commitment. We work with strength and honesty to provide our services through specialized work teams and integrated project management"
+    },
+    "services": {
+      "title": "Main Services",
+      "items": {
+        "development": {
+          "title": "Real Estate Development",
+          "description": "Design and execute real estate projects with high quality"
+        },
+        "construction": {
+          "title": "Construction & Development",
+          "description": "We rely on modern technologies and skilled teams to manage projects efficiently"
+        },
+        "design": {
+          "title": "Design & Decoration",
+          "description": "We provide modern interior and exterior designs using the latest methods"
+        },
+        "marketing": {
+          "title": "Marketing",
+          "description": "We use multiple marketing strategies (such as e-marketing) to market properties smoothly and effectively"
+        }
+      }
+    },
+    "design": {
+      "title": "Architectural Design",
+      "description": "We draw inspiration from our rich heritage to create the most beautiful architectural designs. Every detail in our projects reflects the integration between past and present, from color selection to high-quality materials. We aim to combine the splendor of heritage and modern spirit innovation in every corner of the project"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "newLabel": "New",
+    "dateLocale": "en-US",
+    "description": "Read the latest articles",
+    "blogDetails": "Blog Details",
+    "home": "Home",
+    "blog": "Blog",
+    "loading": "Loading...",
+    "details": "Details",
+    "recentPosts": "Recent Posts",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe to our newsletter to receive the latest updates and exclusive content straight to your inbox.",
+    "emailPlaceholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "thankYou": "Thank You!",
+    "subscriptionSuccess": "You have successfully subscribed to our newsletter.",
+    "views": "Views",
+    "readMore": "Read More",
+    "sharePost": "Share Post",
+    "relatedPosts": "Related Posts",
+    "publishedOn": "Published on",
+    "categories": "Categories",
+    "tags": "Tags",
+    "share": {
+      "title": "Share this article",
+      "facebook": "Share on Facebook",
+      "twitter": "Share on Twitter",
+      "linkedin": "Share on LinkedIn",
+      "whatsapp": "Share on WhatsApp"
+    }
+  },
+  "projects": {
+    "sectionTitle": "Our Projects",
+    "available": "Available",
+    "gridView": "Grid View",
+    "sold": "Sold",
+    "horizontalView": "Horizontal View",
+    "compactView": "Compact View",
+    "page": "Page",
+    "reserved": "Reserved",
+    "title": "Our Projects",
+    "subtitle": "We present a collection of distinguished residential projects",
+    "viewProject": "View Project",
+    "viewDetails": "View Project Details",
+    "squareMeters": "m²",
+    "discover": "discover our projects",
+    "sectionDescription": "Our business strategy is based on innovation and adaptability. Starting from Jeddah, we strategically focus our efforts on a diverse portfolio of projects, including residential, commercial, hospitality, retail, tourist destinations, and public projects, reflecting the multi-faceted nature of our brand.",
+    "viewMore": "View More",
+    "projectsLocationMap": "Projects Location Map",
+    "exploreProjectsOnMap": "Explore our real estate projects across different locations",
+    "ourProjects": "Our Projects",
+    "loadingProjects": "Loading projects...",
+    "loadingMap": "Loading map...",
+    "clickOnMarkers": "Click on markers to view project details",
+    "viewOnMap": "View on Map"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "about us",
+    "learnMore": "Learn More",
+    "description": "At RAF Real Estate Development Company, we strive to provide innovative real estate solutions that combine quality and transparency to meet our customers' needs. Our company was founded on solid values and extensive experience in real estate development, to be your ideal partner in achieving your residential and investment dreams.",
+    "imageAlt": "Company Image",
+    "readMore": "Read More",
+    "statistics": {
+      "title": "Statistics",
+      "landArea": "Land Area",
+      "projects": "Projects",
+      "housingUnits": "Housing Units",
+      "totalArea": "Total Area"
+    }
+  },
+  "services": {
+    "afterSaleTitle": "Excellent Services",
+    "ourServices": "Our Key After-Sale Services",
+    "freeServices": "Free services provided for the first year",
+    "items": {
+      "service1": "Comprehensive maintenance services",
+      "service2": "Technical support and guidance",
+      "service3": "Regular inspections and follow-ups",
+      "service4": "Emergency response services",
+      "service5": "Quality assurance and warranty",
+      "service6": "Customer satisfaction surveys",
+      "rental": "Comprehensive maintenance services",
+      "communication": "Technical support and guidance",
+      "maintenance": "Regular inspections and follow-ups",
+      "water": "Emergency response services",
+      "staff": "Quality assurance and warranty",
+      "electricity": "Customer satisfaction surveys"
+      
+
+    },
+    "descriptions":{
+      "rental": "Comprehensive maintenance services",
+      "communication": "Technical support and guidance",
+      "maintenance": "Regular inspections and follow-ups",
+      "water": "Emergency response services",
+      "staff": "Quality assurance and warranty",
+      "electricity": "Customer satisfaction surveys"
+    }
+  },
+  "testimonials": {
+    "title": "Our Clients' Testimonials",
+    "loading": "Loading...",
+    "subtitle": "Read what our clients have to say about us"
+  },
+  "partners": {
+    "title": "Partners",
+    "subtitle": "Trusted by Leading Companies",
+    "description": "We collaborate with industry leaders to deliver excellence",
+    "partners": {
+      "grohe": "Grohe"
+    }
+  },
+  "faq": {
+    "subtitle": "Frequently Asked Questions",
+    "title": "FAQ",
+    "loading": "Loading..."
+  },
+  "404": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist.",
+    "backHome": "Back to Home"
+  },
+  "auth": {
+    "login": {
+      "title": "Login to Your Account",
+      "email": "Email Address",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "loginButton": "Login",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "loginSuccess": "Login successful",
+      "loginError": "Invalid email or password"
+    },
+    "signup": {
+      "title": "Create an Account",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "agreeTerms": "I agree to the Terms of Service and Privacy Policy",
+      "signupButton": "Sign Up",
+      "haveAccount": "Already have an account?",
+      "login": "Login",
+      "signupSuccess": "Account created successfully",
+      "signupError": "Error creating account"
+    },
+    "resetPassword": {
+      "title": "Reset Your Password",
+      "email": "Email Address",
+      "sendLink": "Send Reset Link",
+      "backToLogin": "Back to Login",
+      "resetSuccess": "Password reset link sent to your email",
+      "resetError": "Error sending reset link",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "resetButton": "Reset Password",
+      "passwordResetSuccess": "Password reset successful"
+    },
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "passwordRequired": "Password is required",
+      "passwordLength": "Password must be at least 8 characters",
+      "passwordMatch": "Passwords do not match",
+      "fullNameRequired": "Full name is required",
+      "fullNameLength": "Full name must be between 3-50 characters",
+      "termsRequired": "You must agree to the terms"
+    },
+    "nav": {
+      "login": "Login",
+      "signup": "Sign Up",
+      "logout": "Logout",
+      "profile": "My Profile",
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "privacy": "Privacy Policy",
+      "services": "Services",
+      "contact": "Contact",
+      "blog": "Blogs",
+      "consultation": "Consultation",
+      "wishlist": "Wishlist",
+      "condition": "Terms and Conditions"
+    }
+  },
+  "wishlist": {
+    "wishlistTitle": "Wishlist",
+    "emptyWishlistTitle": "No projects in wishlist",
+    "emptyWishlistDescription": "You have not added any projects to your wishlist yet",
+    "browseProjects": "Browse Projects",
+    "viewProject": "View Project",
+    "sold": "Sold",
+    "reserved": "Reserved",
+    "available": "Available"
+  },
+  "condition": {
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last Updated: {date}",
+    "description": "Please read these terms and conditions carefully before using our services",
+    "features": {
+      "agreement": {
+        "title": "User Agreement",
+        "description": "By accessing our services, you agree to these terms and conditions"
+      },
+      "compliance": {
+        "title": "Legal Compliance",
+        "description": "All our services comply with Saudi Arabian laws and regulations"
+      },
+      "protection": {
+        "title": "User Protection",
+        "description": "We implement measures to protect your rights when using our services"
+      }
+    },
+    "rights": {
+      "intellectual": {
+        "title": "Intellectual Property",
+        "description": "All content on this website is the property of RAF Real Estate Company"
+      },
+      "termination": {
+        "title": "Account Termination",
+        "description": "We reserve the right to terminate accounts that violate our terms"
+      },
+      "modification": {
+        "title": "Terms Modification",
+        "description": "We may modify these terms at any time with proper notification"
+      }
+    },
+    "sections": {
+      "intro": {
+        "title": "Introduction",
+        "content": "These Terms and Conditions govern your use of our website and services provided by RAF Real Estate Company. By accessing or using our services, you agree to be bound by these Terms and Conditions. If you disagree with any part of these terms, you may not access our services."
+      },
+      "usage": {
+        "title": "Use of Services",
+        "content": "Our services are provided for your personal and non-commercial use. You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of our services without express written permission from us."
+      },
+      "items": [
+        "Creating an account on our website",
+        "Using our property search services",
+        "Scheduling property viewings",
+        "Contacting our sales team",
+        "Submitting inquiries about properties"
+      ]
+    }
+  },
+  "floatingButtons": {
+    "whatsapp": "Chat with us on WhatsApp",
+    "phone": "Call us"
+  },
+  "videoSection": {
+    "title": "Welcome to RAF Real Estate Development Company",
+    "description": "Experience the future of real estate development with RAF Real Estate Development Company",
+    "videoTitle": " ",
+    "videoDescription": " ",
+    "loading": "Loading..."
+  },
+  "Maintenance": {
+    "title": "Website Under Maintenance",
+    "message": "We are currently working on improving our website to provide a better experience. We'll be back soon!",
+    "contact": "For urgent inquiries, please contact us via email"
+  },
+  "maintenance": {
+    "service": "Building Maintenance Service",
+    "title": "Building Maintenance Request",
+    "description": "Submit your building maintenance request and we'll get back to you as soon as possible with a comprehensive solution.",
+    "name": "Full Name",
+    "numberOfFloors": "Number of Floors",
+    "phoneNumber": "Phone Number",
+    "numberOfProjects": "Number of Projects",
+    "numberOfFlats": "Number of Flats",
+    "address": "Address/Location",
+    "details": "Please provide detailed information about the maintenance required...",
+    "submit": "Submit Request",
+    "sending": "Sending...",
+    "successMessage": "Your maintenance request has been submitted successfully. We'll contact you soon!",
+    "errorMessage": "An error occurred while submitting your request. Please try again.",
+    "validation": {
+      "name": "Name must be at least 2 characters and less than 50 characters",
+      "numberOfFloors": "Number of floors is required and must be a valid number",
+      "phoneNumber": "Please enter a valid Saudi phone number (e.g., 05xxxxxxxx)",
+      "numberOfProjects": "Number of projects is required and must be a valid number",
+      "details": "Details must be at least 10 characters and less than 1000 characters",
+      "numberOfFlats": "Number of flats is required and must be a valid number",
+      "address": "Address must be at least 5 characters and less than 200 characters"
+    },
+    "nameLabel": "Full Name",
+    "numberOfFloorsLabel": "Number of Floors",
+    "phoneNumberLabel": "Phone Number",
+    "numberOfProjectsLabel": "Number of Projects",
+    "detailsLabel": "Please provide detailed information about the maintenance required...",
+    "numberOfFlatsLabel": "Number of Flats",
+    "addressLabel": "Address/Location",
+    "orderCode": "Order Code",
+    "copyCode": "Copy Order Code",
+    "saveCodeMessage": "Please save this order code for future reference",
+    "codeCopied": "Order code copied"
+  }
+}

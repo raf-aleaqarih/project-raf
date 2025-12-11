@@ -1,0 +1,209 @@
+/* Leaflet CSS - must be imported before Tailwind */
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Almarai:wght@300;400;700;800&family=Bokor&family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Markazi+Text:wght@400..700&family=Parkinsans:wght@300..800&family=Reem+Kufi:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap'); */
+
+@layer base {
+  html {
+    font-family: "IBM Plex Sans Arabic", serif;
+  }
+  * {
+    font-family: inherit;
+  }
+  
+   :root {
+    /* الألوان الأساسية */
+    --primary: 342 69% 30%; /* BOYSENBERRY - #681034 */
+    --primary-light: 342 69% 40%;
+    --primary-dark: 342 69% 20%;
+    
+    --secondary: 14 57% 61%; /* HARVEST GOLD - #d68c3c */
+    --secondary-light: 14 57% 71%;
+    --secondary-dark: 14 57% 51%;
+    
+    /* الألوان المحايدة */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+    
+    --radius: 0.5rem;
+  }
+  
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* إخفاء شريط التمرير في جميع المتصفحات */
+/* إخفاء شريط التمرير في Chrome و Safari و Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* إخفاء شريط التمرير في IE و Edge و Firefox */
+* {
+  -ms-overflow-style: none;  /* IE و Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.font-cairo {
+  font-family: var(--font-cairo);
+}
+
+.font-tajawal {
+  font-family: var(--font-tajawal);
+}
+
+/* RTL specific utility classes */
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.ms-auto {
+  margin-inline-start: auto;
+}
+
+.me-auto {
+  margin-inline-end: auto;
+}
+
+.font-almarai {
+  font-family: var(--font-almarai);
+}
+
+.font-ibm {
+  font-family: var(--font-ibm);
+}
+
+.font-rubik {
+  font-family: var(--font-rubik);
+}
+
+.font-alexandria {
+  font-family: var(--font-alexandria);
+}
+
+.font-markazi {
+  font-family: var(--font-markazi);
+}
+
+.font-reem {
+  font-family: var(--font-reem);
+}
+
+.font-parkinsans {
+  font-family: var(--font-parkinsans);
+}
+
+.font-bokor {
+  font-family: var(--font-bokor);
+}
+
+/* Leaflet Custom Styles */
+.leaflet-container {
+  font-family: "IBM Plex Sans Arabic", serif;
+  border-radius: 1rem;
+  z-index: 0;
+}
+
+/* Custom Popup Styles */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(84, 15, 107, 0.15);
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  width: auto !important;
+}
+
+.leaflet-popup-tip {
+  background: white;
+}
+
+/* Custom Tooltip Styles */
+.leaflet-tooltip {
+  background: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 4px 12px rgba(84, 15, 107, 0.15);
+  transition: all 0.3s ease;
+}
+
+.leaflet-tooltip-left::before,
+.leaflet-tooltip-right::before {
+  border: none;
+}
+
+/* Marker Animation */
+.leaflet-marker-icon {
+  transition: transform 0.3s ease;
+}
+
+.leaflet-marker-icon:hover {
+  transform: scale(1.1);
+  z-index: 1000 !important;
+}
+
+/* Fix Leaflet marker icons in Next.js */
+.leaflet-default-icon-path {
+  background-image: url('https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png');
+}
